@@ -1,16 +1,21 @@
 NAME
+
 log_norm.pl - Log normalization perl script
 
 SYNOPSIS
+
 log_norm.pl
 
 AVAILABILITY
+
 Git repository (public)
 
 DESCRIPTION
+
 This scripts calculates log scores provided in a text file log_scores.txt in the same directory.
 
 EXAMPLES
+
 If you run the script with the text file log_scores.txt in the same directory with the following content:
 
 2.972013412
@@ -44,7 +49,9 @@ Log score -0.508617802 is 0.367982189860324 % of total score
 The results show that log score of 3.506570268 is about 20.3986% of the sum of all log scores provided in log_scores.txt
 
 FILES
+
 log_scores.txt: a text file that has log score per line. The file should be in the same directory.
 
 SEE ALSO
+
 Log likelihood score, BDe score, Log score
